@@ -1,0 +1,62 @@
+body{
+    background-color: #212122;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+    place-content: center;
+    justify-items: center;
+    gap: 1rem;
+    height: 300px;
+    width: 90%;
+
+}
+
+
+
+.image-left {
+    background-image: url("https://pbs.twimg.com/media/GJH7wTbW0AAkwUZ?format=jpg&name=900x900");
+    background-position: center;
+    background-size: cover;
+    flex:1;
+    transition: all;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+
+}
+
+.image-center {
+    background-image: url("https://www.directv.com/dtvassets/sales/directv/upper_funnel/directv/homepage/cards/HBOMax_2965201_FullImage_Hero2.jpg"); 
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    transition: all;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+
+.image-right {
+    background-image: url("https://pbs.twimg.com/media/GJIQbl2WsAAtw6P?format=jpg&name=900x900"); 
+    background-position: center;
+    background-size: cover;
+    flex:1;
+    transition: all;
+    transition-duration: 750ms;
+    transition-timing-function: ease-in-out;
+}
+.image-left:hover{
+    flex:6;
+}
+.image-center:hover{
+    flex: 6;
+
+}
+.image-right:hover{
+    flex:6;
+}
